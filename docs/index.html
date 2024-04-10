@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<div class="container">
+    <h1>MNNN stack tutorial</h1>
+    <p>This tutorial is adopted from "<a href="https://blog.logrocket.com/mern-stack-tutorial/">The MERN stack tutorial</a>" in LogRocket. We recommend you to read the original tutorial together for more information.</p>
+    </br>
+    </br>
+    <h2>What is MNNN stack?</h2>
+    <p>MNNN stand for:  
+        <ul>
+            <li>MongoDB: A cross-platform document-oriented database program</li>
+            <li>Nest.js: A Node.js framework for building backend application</li>
+            <li>Next.js: A React framework for building (frontend) web application</li>
+            <li>Node.js: A cross-platform JavaScript runtime environment</li>
+        </ul>
+    </p>
+    </br>
+    <h2>Install Node.js before start</h2>
+    <p>You should have <a href="https://nodejs.org/en">Node.js</a> installed in your computer.</p>
+    </br>
+    </br>
+    <h2>Backend application (server) with Nest.js and Node.js</h2>
+    <p>First, install Nest.js by running the command in your terminal:
+    <pre><code>npm i -g @nestjs/cli</code></pre>
+    Then, run this command to initialize a new Nest.js project:
+    <pre><code>nest new whatever-project-name-you-want</code></pre>
+    In here we simply call our project 'worksheet3_backend', so the command becomes:
+    <pre><code>nest new worksheet3_backend</code></pre>
+    We use npm as our package manager:
+    <img src="https://github.com/jcchenaut/ense701_lab/blob/main/imgs/nest_init_select_pm.png" class="img-fluid">
+    Nest will install a set of essential dependencies for you. But we still need to install dependencies for connecting MongoDB:
+    <pre><code>
+        cd backend
+        npm i @nestjs/mongoose mongoose
+    </code></pre>
+    </p>
+    </br>
+    </br>
+    <h3>Setting the entry point</h3>
+    <p>
+    Under the src folder, you can find the default entry point of our backend application, 'main.ts'.
+    Let's configure the port by 
+    </p> 
+</div>
+
